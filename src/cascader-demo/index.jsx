@@ -6,9 +6,6 @@ import data from "./data/mask_data";
 
 
 const oss = data();
-console.log('oss: ' + JSON.stringify(oss));
-
-
 // const oss = [
 //     {name: 'widows', comps: [{name: 'tencent', softs: [{name: 'qq'}, {name: 'wechat'}, {name: 'wegame'}]}, {name: '360', softs: [{name: '360defend'}, {name: '360zip'}]}]}, 
 //     {name: 'linux', comps: [{name: 'tencent1', softs: [{name: 'qq1'}, {name: 'wechat1'}, {name: 'wegame1'}]}, {name: '3601', softs: [{name: '360defend1'}, {name: '360zip1'}]}]}, 
