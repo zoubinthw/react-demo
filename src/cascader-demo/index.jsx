@@ -23,8 +23,6 @@ console.log('oss: ' + JSON.stringify(oss));
 // ];
 
 export default function Cascader() {
-    // const [name, setName] = useState(defineArr[0].name);
-    // const [thing, setThing] = useState(defineArr[0].things[0].name);
     const [lv1, setLv1] = useState([]);
     const [lv1Value, setLv1Value] = useState('');
     const [lv2, setLv2] = useState([]);
